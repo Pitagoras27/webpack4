@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "build:prod": "webpack --mode production",
+    "build:external": "webpack --config ./external/webpack.config.js"
   },
   "author": "Carlos Gtz",
   "license": "MIT",

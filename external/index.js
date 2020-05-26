@@ -1,0 +1,1 @@
+console.log('Hola personalizando una ruta para un webpack.config personalizado. Flag --config en package.json')
